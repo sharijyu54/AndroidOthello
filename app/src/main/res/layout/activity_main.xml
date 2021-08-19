@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkness_700"
+    tools:context="com.example.othello.MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:columnCount="8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="8">
+
+        <View
+            android:id="@+id/View1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="0"
+            app:layout_row="0"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="1"
+            app:layout_row="0"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="2"
+            app:layout_row="0"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="3"
+            app:layout_row="0"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="4"
+            app:layout_row="0"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="5"
+            app:layout_row="0"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="6"
+            app:layout_row="0"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="7"
+            app:layout_row="0"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="0"
+            app:layout_row="1"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View10"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="1"
+            app:layout_row="1"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View11"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="2"
+            app:layout_row="1"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View12"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="3"
+            app:layout_row="1"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View13"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="4"
+            app:layout_row="1"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View14"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="5"
+            app:layout_row="1"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View15"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="6"
+            app:layout_row="1"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View16"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="7"
+            app:layout_row="1"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View17"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="0"
+            app:layout_row="2"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View18"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="1"
+            app:layout_row="2"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View19"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="2"
+            app:layout_row="2"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View20"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="3"
+            app:layout_row="2"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View21"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="4"
+            app:layout_row="2"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View22"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="5"
+            app:layout_row="2"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View23"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="6"
+            app:layout_row="2"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View24"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="7"
+            app:layout_row="2"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View25"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="0"
+            app:layout_row="3"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View26"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="1"
+            app:layout_row="3"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View27"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="2"
+            app:layout_row="3"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View28"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="3"
+            app:layout_row="3"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View29"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="4"
+            app:layout_row="3"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View30"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="5"
+            app:layout_row="3"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View31"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="6"
+            app:layout_row="3"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View32"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="7"
+            app:layout_row="3"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View33"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="0"
+            app:layout_row="4"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View34"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="1"
+            app:layout_row="4"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View35"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="2"
+            app:layout_row="4"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View36"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="3"
+            app:layout_row="4"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View37"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="4"
+            app:layout_row="4"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View38"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="5"
+            app:layout_row="4"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View39"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="6"
+            app:layout_row="4"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View40"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="7"
+            app:layout_row="4"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View41"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="0"
+            app:layout_row="5"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View42"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="1"
+            app:layout_row="5"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View43"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="2"
+            app:layout_row="5"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View44"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="3"
+            app:layout_row="5"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View45"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="4"
+            app:layout_row="5"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View46"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="5"
+            app:layout_row="5"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View47"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="6"
+            app:layout_row="5"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View48"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="7"
+            app:layout_row="5"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View49"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="0"
+            app:layout_row="6"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View50"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="1"
+            app:layout_row="6"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View51"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="2"
+            app:layout_row="6"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View52"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="3"
+            app:layout_row="6"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View53"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="4"
+            app:layout_row="6"
+            android:clickable="true"
+            android:onClick="onClick" />
+        <View
+            android:id="@+id/View54"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="5"
+            app:layout_row="6"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View55"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="6"
+            app:layout_row="6"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View56"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="7"
+            app:layout_row="6"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View57"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="0"
+            app:layout_row="7"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View58"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="1"
+            app:layout_row="7"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View59"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="2"
+            app:layout_row="7"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View60"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="3"
+            app:layout_row="7"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View61"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="4"
+            app:layout_row="7"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View62"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="5"
+            app:layout_row="7"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View63"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="6"
+            app:layout_row="7"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <View
+            android:id="@+id/View64"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/othello_cell"
+            app:layout_column="7"
+            app:layout_row="7"
+            android:clickable="true"
+            android:onClick="onClick" />
+
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
